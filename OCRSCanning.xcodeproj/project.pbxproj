@@ -14,6 +14,7 @@
 		128D376422BCDED20055A817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128D376322BCDED20055A817 /* Assets.xcassets */; };
 		128D376722BCDED20055A817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128D376522BCDED20055A817 /* LaunchScreen.storyboard */; };
 		128D377222BCDED20055A817 /* OCRSCanningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D377122BCDED20055A817 /* OCRSCanningTests.swift */; };
+		128D377D22BCE0040055A817 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D377C22BCE0040055A817 /* ResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		128D376D22BCDED20055A817 /* OCRSCanningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRSCanningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128D377122BCDED20055A817 /* OCRSCanningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRSCanningTests.swift; sourceTree = "<group>"; };
 		128D377322BCDED20055A817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128D377C22BCE0040055A817 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				128D375A22BCDED00055A817 /* AppDelegate.swift */,
 				128D375C22BCDED00055A817 /* SceneDelegate.swift */,
 				128D375E22BCDED00055A817 /* ViewController.swift */,
+				128D377C22BCE0040055A817 /* ResultsTableViewController.swift */,
 				128D376022BCDED00055A817 /* Main.storyboard */,
 				128D376322BCDED20055A817 /* Assets.xcassets */,
 				128D376522BCDED20055A817 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128D377D22BCE0040055A817 /* ResultsTableViewController.swift in Sources */,
 				128D375F22BCDED00055A817 /* ViewController.swift in Sources */,
 				128D375B22BCDED00055A817 /* AppDelegate.swift in Sources */,
 				128D375D22BCDED00055A817 /* SceneDelegate.swift in Sources */,
