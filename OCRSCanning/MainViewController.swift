@@ -10,7 +10,7 @@ import UIKit
 import Vision
 import VisionKit
 
-class ViewController: UIViewController, VNDocumentCameraViewControllerDelegate {
+class MainViewController: UIViewController, VNDocumentCameraViewControllerDelegate {
 
     @IBOutlet var processExample: UIButton!
     @IBOutlet var processPicture: UIButton!
@@ -18,8 +18,6 @@ class ViewController: UIViewController, VNDocumentCameraViewControllerDelegate {
 
     @IBOutlet var imageView: UIImageView!
     
-    @IBOutlet var upcLabel: UILabel!
-
     private var scanResults = [String]()
     
     //MARK: View functions
